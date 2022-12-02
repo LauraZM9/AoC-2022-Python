@@ -1,4 +1,5 @@
 from days.day1 import *
+from utils.utils import *
 
 
 def test_main():

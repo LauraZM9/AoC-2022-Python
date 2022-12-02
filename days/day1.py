@@ -1,8 +1,9 @@
 """ Day 1: Calorie Counting """
+from utils.utils import *
 
 def main(cals=None):
   if not cals:
-    cals = read_data()
+    cals = read_data('input/input_day1.txt')
   cals = clean_data(cals)
 
   total_cals = split_calories(cals)
@@ -13,16 +14,6 @@ def main(cals=None):
   print("Sum of the top three reendeer calories: ", sum(top_3))
 
   return max_cals, top_3
-
-
-def read_data():
-  with open('input/input_day1.txt') as f:
-    cals = f.readlines()
-  return cals
-
-
-def clean_data(cals):
-  return list(map(str.strip, cals))
 
 
 def split_calories(cals):
