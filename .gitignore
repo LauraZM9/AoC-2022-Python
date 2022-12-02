@@ -130,3 +130,6 @@ dmypy.json
 
 # python environment
 aoc-env
+
+# input data
+input/
