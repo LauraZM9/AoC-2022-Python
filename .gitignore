@@ -133,3 +133,5 @@ aoc-env
 
 # input data
 input/
+
+.vscode
