@@ -2,7 +2,6 @@ from days.day6 import *
 
 def test_main():
   input = ["mjqjpqmgbljsphdztnvjfqwrcgsmlb\n"]
-  output = "mjqjpqmgbljsphdztnvjfqwrcgsmlb"
   assert main(input) == (7, 19)
 
 sol_dict ={
