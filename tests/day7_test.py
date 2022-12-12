@@ -86,3 +86,5 @@ def test_populated_dict():
   }
   assert populate_dict() == output_dict
 
+def test_find_parent():
+  assert find_parent()
